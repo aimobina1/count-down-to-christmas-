@@ -29,7 +29,12 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     border-radius: 5px;
     margin-top: 20px;
+    transition: width  ease-in-out 1s;
 }
+.container:hover {
+    width:350px;
+    border-radius: 50px;
+  }
 .count-display{
     font-size: 100px;
     margin-bottom:10px;
